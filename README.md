@@ -3,7 +3,7 @@
 ## Install
 
 ```sh
-git clone git@gitlab.be-md.ncbi.nlm.nih.gov:pd/do/p2/ex/radetska2/kata/gitlag.git
+git clone git@.../kata/gitlag.git
 cd gitlag
 virtualenv -p python3.9 venv
 source venv/bin/activate
