@@ -4,7 +4,7 @@ import gitlab.v4.objects
 
 
 def get_gitlab_api():
-    gitlab_url = os.environ.get("GITLAB_URL", "https://gitlab.be-md.ncbi.nlm.nih.gov/")
+    gitlab_url = os.environ.get("GITLAB_URL", "https://gitlab.gov/")
     token = os.environ.get("GITLAB_TOKEN")
     return gitlab.Gitlab(gitlab_url, token)
 
